@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   app.innerHTML = ""; // پاک کردن محتوای اولیه
 
   await loadComponent("./components/header.html", "#app");
-  await loadComponent("./components/hero.html", "#app");
   await loadComponent("./components/portfolio.html", "#app");
   await loadComponent("./components/footer.html", "#app");
 });
