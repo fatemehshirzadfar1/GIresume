@@ -2,6 +2,7 @@
 async function loadComponent(path, container) {
   const res = await fetch(path);
   const html = await res.text();
+  html = html.trim();
   document.querySelector(container).insertAdjacentHTML("beforeend", html);
 }
 
