@@ -1,0 +1,29 @@
+/* =================== */
+/* کرسر سفارشی */
+/* =================== */
+body {
+  cursor: none;
+}
+
+#custom-cursor {
+  width: 24px;
+  height: 24px;
+  border: 2px solid #C5B358;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 9999;
+  transition: transform 0.1s ease-out, border-width 0.15s ease, opacity 0.15s ease;
+}
+
+.interactable {
+  cursor: none;
+}
+
+.cursor-on-link {
+  transform: scale(1.5);
+  border-width: 4px;
+  opacity: 0.8;
+}

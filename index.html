@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="utf-8">
+  <title>AmirHossein Mohtashami - Visual Identity Designer</title>
+  <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64,">
+  
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#e3be3b",
+            "background-light": "#f8f7f6",
+            "background-dark": "#211d11",
+          },
+          fontFamily: {
+            "display": ["Manrope"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+
+  <!-- فونت‌ها -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" crossorigin href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+  <!-- استایل سفارشی -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-200">
+  <!-- بقیه‌ی کد HTML همون قبلیه -->
+  
+<div id="custom-cursor">
+</div>
+
+
+  <div class="min-h-screen flex flex-col" id="app">
+    <!-- اجزای مختلف به صورت داینامیک لود می‌شوند -->
+  </div>
+
+  <!-- اسکریپت‌ها -->
+  <script src="./js/filter.js"></script>
+  <script src="./js/cursor.js"></script>
+  <script src="./js/main.js"></script>
+
+</body>
+</html>
