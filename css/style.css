@@ -27,3 +27,9 @@ body {
   border-width: 4px;
   opacity: 0.8;
 }
+
+
+h1, h2, h3, section {
+  margin-top: 0;
+  margin-bottom: 0;
+}
