@@ -6,6 +6,9 @@
   <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64,">
   
   <!-- Tailwind -->
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
   <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   <script>
     tailwind.config = {
@@ -1072,7 +1075,52 @@
     </div>
    </div>
   </section>
+<section id="short-videos" class="max-w-6xl mx-auto px-4 py-12">
+    <h2 class="text-3xl font-bold text-center text-gray-900 dark:text-white mb-12">🎬 ویدیوهای پریمیر</h2>
 
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- نمونه ویدیو -->
+      <a href="../video/1000060880.mp4"
+         class="glightbox group relative overflow-hidden rounded-xl shadow-lg"
+         data-gallery="shorts" data-type="video">
+        <img src="../img/tumbnails/1000060883.jpg"
+             alt="Video 1"
+             class="w-full h-full rounded-xl group-hover:scale-105 transition-transform duration-500">
+        <div class="absolute inset-0 bg-black/30 group-hover:bg-black/50 flex items-center justify-center transition duration-300">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-14 h-14 text-white opacity-90" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l4.5-2.5a.5.5 0 0 0 0-.814l-4.5-2.5z"/>
+          </svg>
+        </div>
+      </a>
+
+      <a href="../video/1000060881.mp4"
+         class="glightbox group relative overflow-hidden rounded-xl shadow-lg"
+         data-gallery="shorts" data-type="video">
+        <img src="../img/tumbnails/1000060884.jpg"
+             alt="Video 1"
+             class="w-full h-full rounded-xl group-hover:scale-105 transition-transform duration-500">
+        <div class="absolute inset-0 bg-black/30 group-hover:bg-black/50 flex items-center justify-center transition duration-300">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-14 h-14 text-white opacity-90" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l4.5-2.5a.5.5 0 0 0 0-.814l-4.5-2.5z"/>
+          </svg>
+        </div>
+      </a>
+
+      <a href="../video/1000060878.mp4"
+         class="glightbox group relative overflow-hidden rounded-xl shadow-lg"
+         data-gallery="shorts" data-type="video">
+        <img src="../img/tumbnails/1000060885.jpg"
+             alt="Video 1"
+             class="w-full h-auto rounded-xl group-hover:scale-105 transition-transform duration-500">
+        <div class="absolute inset-0 bg-black/30 group-hover:bg-black/50 flex items-center justify-center transition duration-300">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-14 h-14 text-white opacity-90" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l4.5-2.5a.5.5 0 0 0 0-.814l-4.5-2.5z"/>
+          </svg>
+        </div>
+      </a>
+
+    </div>
+  </section>
 
  </main>
  <footer class="bg-gray-200 dark:bg-gray-800">
@@ -1087,6 +1135,8 @@
   <!-- اسکریپت‌ها -->
   <script src="../js/filter.js"></script>
   <script src="../js/cursor.js"></script>
+  <script src="../js/glightbox.js"></script>
+
 
 </body>
 </html>
