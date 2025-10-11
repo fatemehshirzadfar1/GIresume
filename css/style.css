@@ -2,7 +2,8 @@
 /* کرسر سفارشی */
 /* =================== */
 body {
-  cursor: none;
+  cursor: pointer;
+  z-index: 100000000;
 }
 
 #custom-cursor {
