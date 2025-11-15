@@ -4,6 +4,7 @@
 body {
   cursor: pointer;
   z-index: 100000000;
+  background: linear-gradient(135deg, #0f0f15 0%, #151520 100%);
 }
 
 #custom-cursor {
