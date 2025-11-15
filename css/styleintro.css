@@ -1,20 +1,21 @@
-
-        * {
+* {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
+        
+        html {
+            overflow-x: hidden; 
+        }
+
         body {
             background: linear-gradient(135deg, #0f0f15 0%, #151520 100%);
             font-family: 'Inter', sans-serif;
             color: #f0f4f8;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
-            overflow: hidden;
+            padding: 0; 
+            position: relative;
         }
+
         /* Floating Balls Background */
         .background {
             position: fixed;
@@ -109,13 +110,18 @@
             box-shadow: 40vmin 0 5.196265905749415vmin currentColor;
         }
 
-        /* Content */
         .container {
             max-width: 900px;
             width: 100%;
             text-align: center;
             position: relative;
             z-index: 1;
+            margin: 0 auto; 
+            padding: 20px;
+            min-height: 100vh;
+            display: flex; 
+            flex-direction: column;
+            justify-content: center; 
         }
         .name {
             font-size: 3.2rem;
@@ -185,8 +191,8 @@
 
         /* NEW LIQUID BUTTON */
         .portfolio-link {
-		white-space: nowrap; /* ← prevents line breaks */
-    overflow: visible;   /* ensures text isn’t cut off */
+            white-space: nowrap;
+            overflow: visible;
             position: relative;
             padding: 15px 10px;
             display: inline-block;
@@ -262,7 +268,7 @@
         .footer {
             margin-top: 2.8rem;
             color: #7c859a;
-            font-size: 0.9rem;
+            font-size: 1rem;
             font-weight: 300;
         }
 
@@ -285,5 +291,8 @@
             }
             .portfolio-link .liquid {
                 width: 100%;
+            }
+            .container {
+                padding: 15px; 
             }
         }
