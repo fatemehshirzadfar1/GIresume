@@ -149,3 +149,14 @@ body {
             transform-origin: 25vw -3vh;
             box-shadow: 40vmin 0 5.196265905749415vmin currentColor;
         }
+
+        .name {
+            font-size: 1.2rem;
+            font-weight: 700;
+            background: linear-gradient(90deg, #6366f1, #8b5cf6, #ec4899);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            letter-spacing: -0.5px;
+
+        }
