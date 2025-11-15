@@ -80,10 +80,10 @@ body {
             animation: move linear infinite;
         }
         .ball:nth-child(odd) {
-            color: #d946ef;
+            color: #3a0742;
         }
         .ball:nth-child(even) {
-            color: #a855f7;
+            color: #370764;
         }
         .ball:nth-child(1) {
             top: 77%;
